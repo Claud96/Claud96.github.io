@@ -1,0 +1,114 @@
+body {
+    background-color: #2e3138;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+#intro {
+    color: #baff29;
+    height: 100vh;
+}
+
+#intro h1 {
+    font-size: 96px;
+}
+
+#intro code {
+    font-size: 1.75rem;
+}
+
+#intro h3 {
+    color: #9c9f93;
+}
+
+#arrowDown {
+    color: #baff29;
+    font-size: 75px;
+    position: absolute;
+    bottom: 30px;
+    left: calc(50% - 37.5px);
+}
+
+#aboutMe {
+    color: black;
+    background: #f7eded;
+    padding: 30px;
+}
+
+#contact {
+    background-color: #c0cfd0f8;
+    color: black;
+    padding: 30px;
+}
+
+#contact a {
+    color: white;
+}
+#email {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+form .btn-primary {
+    width: 100%;
+    margin-top: 15px;
+    background-color: black;
+    border: 1px solid black;
+}
+
+#portfolio {
+    background-color: #d1c8d1;
+    color: black;
+    padding: 30px;
+}
+
+.navbar {
+    background-color: #598392 !important;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    padding: 30px;
+}
+
+section {
+    box-shadow: -10px 0 25px #01161e;
+    /* border-bottom: 2px solid darkblue; */
+}
+
+@media only screen and (max-width: 775px) {
+    #intro h1 {
+        font-size: 50px;
+    }
+    #intro h3 {
+        font-size: 1.5rem;
+    }
+}
+
+main {
+    background-color: #124559;
+    color: white;
+    padding: 30px;
+}
+
+main img {
+    border-radius: 10px;
+}
+
+.bg-secondary {
+    background-color: black;
+}
