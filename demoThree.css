@@ -1,0 +1,30 @@
+button {
+    min-width: 25px;
+}
+
+#navBar {
+    background-color: whitesmoke;
+}
+
+.container {
+    background: whitesmoke;
+    padding: 20px;
+    box-shadow: -5px 0 15px black;
+}
+/* main {
+    background: whitesmoke;
+    padding: 20px;
+    box-shadow: -10px 0 15px #4ca2aaf8;
+    margin-top: 2px;
+} */
+
+#content {
+    border-radius: 10px;
+    padding: 15px;
+}
+
+footer {
+    color: black;
+    background-color: whitesmoke;
+    padding-top: 20px;
+}

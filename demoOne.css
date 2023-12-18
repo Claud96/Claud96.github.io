@@ -1,0 +1,76 @@
+.container {
+    background: whitesmoke;
+    padding: 20px;
+    box-shadow: -5px 0 15px black;
+}
+
+#content {
+    border: 1px solid rgb(139, 82, 213);
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+/* main {
+    background: whitesmoke;
+    padding: 20px;
+    box-shadow: -10px 0 15px #4ca2aaf8;
+    margin-top: 2px;
+} */
+
+#weatherIcon {
+    font-size: 48px;
+}
+
+#currentTemp {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.forecastIcon {
+    font-size: 36px;
+}
+
+#forecastRow p {
+    margin-bottom: 0;
+}
+
+#details {
+    font-size: 12px;
+}
+.col-2 img {
+    padding-left: 0px;
+}
+
+#moreLinks {
+    padding-top: 55px;
+}
+
+img {
+    padding: 5px;
+}
+
+ul {
+    font-weight: bold;
+    color: #3e53a2;
+    list-style-type: none;
+}
+
+#title {
+    color: #3e53a2;
+    font-weight: bold;
+    text-align: left;
+}
+
+#subForums {
+    margin-bottom: 10px;
+    text-align: left;
+    color: #333;
+    width: 56.25em;
+}
+
+footer {
+    color: black;
+    background-color: whitesmoke;
+    padding-top: 20px;
+}
