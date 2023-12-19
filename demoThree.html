@@ -10,8 +10,13 @@
             integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
             crossorigin="anonymous"
         />
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+        />
+
         <link rel="stylesheet" href="demoThree.css" />
-        <title>Tic Tac Toe</title>
+        <title>Movie Seat Selector App</title>
     </head>
     <body>
         <div class="container">
@@ -64,30 +69,20 @@
             <main>
                 <div>
                     <p class="text-center">
-                        <b> Tic Tac Toe game [using Javascript] </b>
+                        <b> Movie Seat Selector App [using javascript]</b>
                     </p>
                 </div>
-                <div id="content">
-                    <h1>Tic Tac Toe</h1>
-                    <div id="board">
-                        <div>
-                            <button>&nbsp;</button>
-                            <button>&nbsp;</button>
-                            <button>&nbsp;</button>
-                        </div>
-                        <div>
-                            <button>&nbsp;</button>
-                            <button>&nbsp;</button>
-                            <button>&nbsp;</button>
-                        </div>
-                        <div>
-                            <button>&nbsp;</button>
-                            <button>&nbsp;</button>
-                            <button>&nbsp;</button>
-                        </div>
-                    </div>
-                    <div id="status">Your turn</div>
+
+                <p>Select a movie to see seating options</p>
+                <!-- Add ID to select so we can access in JS -->
+                <select id="movieSelection"></select>
+                <div id="seats"></div>
+                <div id="selectedStatus"></div>
+                <div>
+                    <div id="screen">Screen Goes Here</div>
                 </div>
+                <div><button onclick="checkout(event)">Checkout</button></div>
+                <script src="script.js"></script>
             </main>
             <footer>© EST 2023</footer>
         </div>
