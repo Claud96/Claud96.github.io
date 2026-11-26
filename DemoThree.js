@@ -4,20 +4,20 @@ console.log("Let's watch some movies");
 //#2 Set up an object where each movie title is a key and the value
 //is an object to store both the price and the array of empty seats
 const movies = {
-    "The Paw Patrol Movie": {
-        price: 8,
+    "Demon Slayer": {
+        price: 12,
         seats: [],
     },
-    "Star Wars": {
-        price: 9,
+    "Avengers: Doomsday": {
+        price: 15,
         seats: [],
     },
-    "Fast 8": {
-        price: 10,
+    "Hunger Games": {
+        price: 15,
         seats: [],
     },
-    "The little Mermaid": {
-        price: 11,
+    "Les Misérables": {
+        price: 15,
         seats: [],
     },
 };
@@ -116,7 +116,7 @@ const seatClicked = (event) => {
     let seat = movies[movieSelected].seats[rowIndex][colIndex];
 
     if (seat.occupied) {
-        alert("Get your own damn seat, this one is taken");
+        alert("Sorry, this seat is already taken. Please choose another.");
         return;
     } else {
         seat.selected = !seat.selected;

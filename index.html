@@ -15,103 +15,51 @@
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
         />
-        
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
+        <nav class="navbar navbar-expand site-nav">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Alize Claudio</a>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
         <div class="container">
             <section
                 id="intro"
-                class="d-flex flex-column justify-content-center align-items-center"
+                class="d-flex flex-column justify-content-center align-items-center text-center"
             >
-                <h1>A L I Z E</br>C L A U D I O</h1>
-                <h3>Developer | Finance & Data</h3>
+                <h1>A L I Z E<br />C L A U D I O</h1>
+                <h3>Developer | Finance &amp; Data</h3>
+                <p class="intro-blurb">
+                    My path has been non-traditional, and every step taught me something I use today.
+                    I'm a reliable problem solver who values growth and authenticity, building a career
+                    where finance, data, and technology meet.
+                </p>
                 <code>console.log("Hello");</code>
-                <a href="#about">
-                    <span class="material-symbols-outlined" id="arrowDown">
-                        keyboard_double_arrow_down
-                    </span>
-                </a>
+                <a href="about.html" class="btn btn-primary mt-3">Read My Story</a>
             </section>
-           <section id="about" class="text-right">
-    <h3>About Me</h3>
 
-    <p>
-        Stepping away from school and coming back taught me that a break is not a failure.
-        It gave me a clearer sense of purpose and stronger discipline. If you are at a pause
-        in your own path, I hope my story is a reminder that coming back is its own kind of progress.
-    </p>
-
-    <p>
-        Today I am a Business Information Management student at SUNY Broome and an account
-        clerk in accounts payable for a school district, where a single wrong figure can delay
-        a payment. As a single parent, I balance work, school, and family while continuing to
-        move toward my degree.
-    </p>
-
-    <p>
-        Earning a full-stack web development certificate taught me that I learn best by
-        creating something real. That work grew my interest in how technology supports
-        business decisions, and it connects to the project
-        </section>
-            <section id="contact" class="text-center">
-                <h1>C O N T A C T</h1>
-                <div class="row">
-                    <div class="col-sm-12 col-md-6">
-                        <p>
-                            Want to get in touch? Shoot me an
-                            <a href="mailto:claud8474@gmail.com" style="color: black;">email</a> 
-                        </p>
-                    </div>
-                    <!-- End of contact text-->
-                    <div class="col-sm-12 col-md-6">
-                        
-                        <!-- end of contact form-->
-                    </div>
-                    <!--end of col for form-->
-                </div>
-                <!--end of row for contact text and form-->
+            <section id="featured" class="text-center">
+                <h2>Featured Project</h2>
+                <h5>SCSD Summer Reading Program</h5>
+                <p>
+                    A full-stack web application built for the Syracuse City School District
+                    summer reading program.
+                </p>
+                <a href="projects.html" class="btn btn-outline-primary">See All Projects</a>
             </section>
-            <!-- end of my contact section-->
-          <section id="portfolio">
-    <h1>Portfolio</h1>
-    <p>
-        A full-stack application that brings together everything I learned in my
-        web development program.
-    </p>
-    <div class="row justify-content-center">
-
-        <div class="col-xs-12 col-md-8">
-            <div class="card">
-                <!-- SCSD CAPSTONE -->
-                <img
-                    src="capstone.png"
-                    class="card-img-top"
-                    alt="screenshot of SCSD summer reading program app"
-                />
-                <div class="card-body">
-                    <h5 class="card-title">SCSD Summer Reading Program</h5>
-                    <p class="card-text">
-                        Full-Stack Capstone Project <br />
-                        [web application built for the Syracuse City School District summer reading program]
-                    </p>
-                    <a href="https://github.com/Claud96/SCSD-Capstone" target="_blank"
-                        rel="noreferrer noopener" class="btn btn-primary">View Code</a>
-                    <a href="https://scsd-capstone-app.onrender.com" target="_blank"
-                        rel="noreferrer noopener" class="btn btn-outline-primary">Live Demo</a>
-                </div>
-                <!-- end card-body -->
-            </div>
-            <!-- end card -->
         </div>
-        <!-- end col -->
 
-    </div>
-    <!-- end row -->
-</section>
-<!-- end of portfolio section -->
-            <footer>© Established July 2023</footer>
-        </div>
-        <!-- end of container -->
+        <footer class="text-center">
+            <p><em>"Whether you think you can, or you think you can't, you're right." (Henry Ford)</em></p>
+            <p>© Established July 2023</p>
+        </footer>
     </body>
 </html>
