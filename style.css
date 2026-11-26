@@ -187,3 +187,9 @@ main img {
     background-color: var(--lavender-dark);
     color: #ffffff;
 }
+.card-img-top {
+    height: 220px;
+    object-fit: contain;
+    background-color: #ffffff;
+    padding: 1rem;
+}
