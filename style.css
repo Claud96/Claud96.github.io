@@ -201,3 +201,8 @@ main img {
     font-size: 0.9rem;
     color: #555555;
 }
+.resume-frame iframe {
+    border: 2px solid var(--lavender);
+    border-radius: 8px;
+    background-color: #ffffff;
+}
