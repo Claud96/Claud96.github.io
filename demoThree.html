@@ -2,8 +2,8 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Movie Seat Selector Demo | Alize Claudio</title>
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
             rel="stylesheet"
@@ -14,78 +14,49 @@
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
         />
-
+        <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="demoThree.css" />
-        <title>Movie Seat Selector App</title>
     </head>
     <body>
-        <div class="container">
-            <nav class="navbar navbar-expand-lg bg-body-tertiary">
-                <!-- >data-bs-theme="dark" -->
-                <div class="container-fluid" id="navBar">
-                    <a class="navbar-brand" href="index.html" id="navBarTwo">
-                        C L A U D I O</a
-                    >
-                    <button
-                        class="navbar-toggler"
-                        type="button"
-                        data-bs-toggle="collapse"
-                        data-bs-target="#navbarNav"
-                        aria-controls="navbarNav"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation"
-                    >
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNav">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a
-                                    class="nav-link active"
-                                    aria-current="page"
-                                    href="index.html"
-                                    >Home</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html#about"
-                                    >About</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html#contact"
-                                    >Contact</a
-                                >
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="index.html#portfolio"
-                                    >Portfolio</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <main>
+        <nav class="navbar navbar-expand site-nav">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Alize Claudio</a>
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container page-content">
+            <a href="movieSeatSelector.html">&larr; Back to Movie Seat Selector</a>
+
+            <main class="mt-3">
                 <div>
                     <p class="text-center">
-                        <b> Movie Seat Selector App [using javascript]</b>
+                        <b>Movie Seat Selector App [using JavaScript]</b>
                     </p>
                 </div>
 
                 <p>Select a movie to see seating options</p>
-                <!-- Add ID to select so we can access in JS -->
                 <select id="movieSelection"></select>
                 <div id="seats"></div>
                 <div id="selectedStatus"></div>
                 <div>
-                    <div id="screen">Screen Goes Here</div>
+                    <div id="screen">Screen</div>
                 </div>
                 <div><button onclick="checkout(event)">Checkout</button></div>
                 <script src="script.js"></script>
             </main>
-            <footer>© EST 2023</footer>
         </div>
+
+        <footer class="text-center">
+            <p><em>"Whether you think you can, or you think you can't, you're right." (Henry Ford)</em></p>
+            <p>© Established July 2023</p>
+        </footer>
+
         <script src="demoThree.js"></script>
     </body>
 </html>
