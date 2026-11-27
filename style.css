@@ -193,3 +193,11 @@ main img {
     background-color: #ffffff;
     padding: 1rem;
 }
+.tech-badge {
+    margin: 0 0.25rem 0.35rem 0;
+    white-space: normal;
+}
+.skill-evidence {
+    font-size: 0.9rem;
+    color: #555555;
+}
