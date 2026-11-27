@@ -206,3 +206,31 @@ main img {
     border-radius: 8px;
     background-color: #ffffff;
 }
+/* ===== HOMEPAGE HEADER WITH PHOTO ===== */
+#intro {
+    min-height: auto;
+    padding: 4rem 0 2rem;
+}
+#intro h1 {
+    font-size: 2.75rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+}
+.profile-photo {
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid var(--lavender);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+@media (min-width: 768px) {
+    #intro .intro-blurb {
+        margin-left: 0;
+    }
+}
+@media only screen and (max-width: 775px) {
+    #intro h1 {
+        font-size: 2rem;
+    }
+}
